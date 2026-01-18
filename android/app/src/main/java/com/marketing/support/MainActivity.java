@@ -1,4 +1,4 @@
-package com.marketing.support;
+package com.marketingsupportpro.app;
 
 import com.getcapacitor.BridgeActivity;
 
