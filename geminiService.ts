@@ -3,11 +3,19 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { MarketingPlan } from './types';
 
 // Fixed: Initializing GoogleGenAI right before the call to ensure the latest API key is used.
-const API_KEY = import.meta.env.VITE_API_KEY;fetch("https://api.example.com/data", { 
-  headers: {
-    Authorization: `Bearer ${API_KEY}`
-  }
-});
+const API_KEY = import.meta.env.VITE_API_KEY;
+
+export async function fetchSomething(payload) {
+  const res = await fetch('https://api.yourservice.com/endpoint', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify(payload)
+  });
+  return res.json();
+}
 
 export const generateMarketingContent = async (input: { 
   link?: string; 
