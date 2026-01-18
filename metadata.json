@@ -1,0 +1,8 @@
+{
+  "name": "Marketing Support Pro",
+  "description": "Premium AI-powered Universal Sales Assistant for Myanmar vendors. Generate Facebook posts, AI images, and branding assets.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

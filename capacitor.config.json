@@ -1,0 +1,9 @@
+{
+  "appId": "com.marketing.support",
+  "appName": "marketing-support",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
