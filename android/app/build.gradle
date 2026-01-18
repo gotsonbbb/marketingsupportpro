@@ -4,7 +4,7 @@ android {
     namespace "com.marketing.support"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.marketing.support"
+        applicationId "com.marketingsupportpro.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
